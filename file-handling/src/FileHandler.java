@@ -63,5 +63,6 @@ public class FileHandler {
         writeLines(f, "writeLines", 5);
         readFile(f);
         appendLines(f, "appendLines", 5);
+        readFile(f);
     }
 }
