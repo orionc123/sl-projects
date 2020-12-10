@@ -97,14 +97,14 @@ public class Main {
     private static void searchExpenses(ArrayList<Integer> arrayList) {
         System.out.println("Enter the expense you need to search:\t");
         Scanner scanner = new Scanner(System.in);
-        try{
+        try {
             int input = scanner.nextInt();
             if (arrayList.contains(input)) {
                 System.out.println(input + " is in the database");
             } else {
                 System.out.println(input + " is not in the database");
             }
-        } catch (Exception e){
+        } catch (Exception e) {
             System.out.println("Invalid search token");
         }
 
